@@ -1,0 +1,379 @@
+.App {
+  text-align: center;
+}
+.image{
+    background-image: url("C:\Users\LENOVO\Pictures\Saved Pictures\fooddy icon.png");
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 100px;
+}
+.grid{
+  display: flex;
+  float: right;
+  margin-right: -400%;
+  margin-top: 15%;
+}
+.back{
+  background-image: url('http://blog.hdwallsource.com/wp-content/uploads/2015/01/food-wallpaper-5775-5940-hd-wallpapers.jpg');
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: 10%;
+  width: 200%;
+  height: 500px;
+  justify-content: center;
+  text-align: center;
+}
+.txt{
+  font-family: 'Courier New', Courier, monospace;
+  justify-content: center;
+}
+.txt1{
+  font-size: 50%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bold{
+  color: chocolate;
+}
+.sushi{
+  background-image: url('http://s3.amazonaws.com/studio-me/system/photos/photos/000/772/076/large/sushi.jpg');
+  height: 150px;
+  width: 190px;
+  background-size: 100%;
+  background-position: 10%;
+  background-repeat: no-repeat;
+  font-family: cursive;
+}
+.biryani{
+  background-image: url('https://cdn.siasat.com/wp-content/uploads/2020/02/Biryani-1.jpg');
+  height: 150px;
+  width: 190px;
+  background-size: 100%;
+  background-position: 10%;
+  background-repeat: no-repeat;
+  font-family: cursive;
+}
+.burger{
+  background-image: url('https://www.bandt.com.au/information/uploads/2014/07/KFC-burger-1260x840.jpg');
+  height: 150px;
+  width: 190px;
+  background-size: 100%;
+  background-position: 10%;
+  background-repeat: no-repeat;
+  font-family: cursive;
+}
+.dessert{
+  background-image: url('https://www.tasteofhome.com/wp-content/uploads/2018/01/exps957_TH143195C09_04_4b.jpg');
+  height: 150px;
+  width: 190px;
+  background-size: 100%;
+  background-position: 10%;
+  background-repeat: no-repeat;
+  font-family: cursive;
+}
+.btn1{
+  position: absolute;
+    bottom: -300px;
+    left: 0%;
+    width: 150px;
+    margin-left: -25px;
+  }
+  
+  .aler{
+    border: 0;
+  }
+  
+  .aboutus{
+    background-image: url('https://g.foolcdn.com/editorial/images/539317/chef-food-service-us-foods-getty.jpeg');
+    width: 700px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .grid1{
+    display: grid;
+    grid-template-columns: 500px 700px;
+    
+  }
+  .heading{
+  font-family: 'Imprint MT Shadow';
+  font-size: 40px;
+}
+
+
+.grid2{
+  display: grid;
+  grid-template-columns: 42% 42% 42%;
+  font-style: italic;
+}
+.gr{
+  display: grid;
+}
+.order{
+  background-image: url('C:\Users\LENOVO\Pictures\order.jpg');
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  align-self: center;
+}
+.wait{
+  background-image: url('C:\Users\LENOVO\Pictures\wait.jpg');
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  align-self: center;
+  
+}
+.get{
+  background-image: url('C:\Users\LENOVO\Pictures\get.jpg');
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  align-self: center;
+}
+.gridd{
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+.gridoff{
+  display: flex;
+  position: absolute;
+  left: 35%;
+  top: 100%;
+}
+.o1{
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  margin-left: 8%;
+}
+
+@media screen and (max-width: 600px) {
+  .App {
+    text-align: center;
+  }
+  .image{
+      background-image: url("C:\Users\LENOVO\Pictures\Saved Pictures\fooddy icon.png");
+      background-repeat: no-repeat;
+      width: 250px;
+      height: 100px;
+  }
+  .grid{
+    display: flex;
+    float: right;
+    margin-right: -400%;
+    margin-top: 15%;
+  }
+  .back{
+    background-image: url('http://blog.hdwallsource.com/wp-content/uploads/2015/01/food-wallpaper-5775-5940-hd-wallpapers.jpg');
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: 10%;
+    width: 200%;
+    height: 500px;
+    justify-content: center;
+    text-align: center;
+  }
+  .txt{
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+  }
+  .txt1{
+    font-size: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .bold{
+    color: chocolate;
+  }
+  .sushi{
+    background-image: url('http://s3.amazonaws.com/studio-me/system/photos/photos/000/772/076/large/sushi.jpg');
+    height: 150px;
+    width: 190px;
+    background-size: 100%;
+    background-position: 10%;
+    background-repeat: no-repeat;
+    font-family: cursive;
+  }
+  .biryani{
+    background-image: url('https://cdn.siasat.com/wp-content/uploads/2020/02/Biryani-1.jpg');
+    height: 150px;
+    width: 190px;
+    background-size: 100%;
+    background-position: 10%;
+    background-repeat: no-repeat;
+    font-family: cursive;
+  }
+  .burger{
+    background-image: url('https://www.bandt.com.au/information/uploads/2014/07/KFC-burger-1260x840.jpg');
+    height: 150px;
+    width: 190px;
+    background-size: 100%;
+    background-position: 10%;
+    background-repeat: no-repeat;
+    font-family: cursive;
+  }
+  .dessert{
+    background-image: url('https://www.tasteofhome.com/wp-content/uploads/2018/01/exps957_TH143195C09_04_4b.jpg');
+    height: 150px;
+    width: 190px;
+    background-size: 100%;
+    background-position: 10%;
+    background-repeat: no-repeat;
+    font-family: cursive;
+  }
+  .btn1{
+    position: absolute;
+      bottom: -300px;
+      left: 0%;
+      width: 150px;
+      margin-left: -25px;
+    }
+    
+    .aler{
+      border: 0;
+    }
+    
+    .aboutus{
+      background-image: url('https://g.foolcdn.com/editorial/images/539317/chef-food-service-us-foods-getty.jpeg');
+      width: 700px;
+      height: 700px;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  
+    .grid1{
+      display: grid;
+      grid-template-columns: 500px 700px;
+      
+    }
+    .heading{
+    font-family: 'Imprint MT Shadow';
+    font-size: 40px;
+  }
+  
+  
+  .grid2{
+    display: grid;
+    grid-template-columns: 42% 42% 42%;
+    font-style: italic;
+  }
+  .gr{
+    display: grid;
+  }
+  .order{
+    background-image: url('C:\Users\LENOVO\Pictures\order.jpg');
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-self: center;
+  }
+  .wait{
+    background-image: url('C:\Users\LENOVO\Pictures\wait.jpg');
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-self: center;
+    
+  }
+  .get{
+    background-image: url('C:\Users\LENOVO\Pictures\get.jpg');
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-self: center;
+  }
+  .gridd{
+    display: grid;
+    grid-template-columns: 40% 60%;
+  }
+  .gridoff{
+    display: flex;
+    position: absolute;
+    left: 35%;
+    top: 100%;
+  }
+  .o1{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    margin-left: 8%;
+  }
+}
+
+/* .aa{
+  /* background-color:white; */
+  /* padding: 60px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 40px rgba(0, 0, 0, 0.8); */
+  /* background-image: url(https://www.asalta.com/storage/x0_0-asalta-inventory-right-banner-e185a4b9_8730ea20.png.pagespeed.ic.-ntuhe2RL0.png); */
+   /* align-items: center;  */
+/* background-image: url(); */
+  /* backdrop-filter: blur(50px); */
+
+/* }  */
+.aa{
+  padding: 60px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 40px rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(70px); 
+}
+.icon{
+  text-align: center;
+  padding-bottom: 20px;
+
+}
+.login {
+  font-family: Arial, sans-serif;
+  padding: 60px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 40px rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-repeat:no-repeat;
+  background-size: cover;
+  align-items: center;
+}
+/* .ars{
+  background-image: url("C:\Users\ARSHAD\Desktop\SPH Whse Inv Mgmt Blog-shutterstock_1930996376.webp");
+  background-repeat:no-repeat;
+  background-size: cover;
+} */
+ .login
+{
+  background-repeat:no-repeat;
+  background-size: cover;
+  
+} 
+.ab{
+  align-items: center;
+  background-color: black;
+}
+
+.REG
+{
+  font-family: Arial, sans-serif;
+padding: 60px;
+border-radius: 5px;
+box-shadow: 1px 1px 40px rgba(0, 0, 0, 0.8);
+display: flex;
+justify-content: center;
+align-items: center;
+height: 90vh;
+background-image: url("https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/1688264/1360/945/m1/fpnw/wm1/c67ubnupwxwkvjhgpi9sjw5vjunhupna9umarqqckfpzahfwyvvyz3qqu3yeszzj-.jpg?1474628965&s=a9429e120f1e15cc263bf782c343f1c8");
+background-repeat:no-repeat;
+background-size: cover;
+align-items: center;
+
+}
+.sy{
+  padding: 60px;
+border-radius: 20px;
+box-shadow: 1px 1px 40px rgba(0, 0, 0, 0.8);
+backdrop-filter: blur(70px); 
+}
